@@ -1,2 +1,2 @@
-22-users_and_homes
-sort /etc/passwd | cut -d: -f1,6
+#!/bin/bash
+sort /etc/passwd | cut -d : -f1,6
