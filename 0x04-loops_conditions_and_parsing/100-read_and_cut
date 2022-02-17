@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #bash script
-while FLR= read -r line
+while IFS= read -r line
 do
 	echo "$line" | cut -f 1,3,6 -d ':'
 done < "/etc/passwd"
