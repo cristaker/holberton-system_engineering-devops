@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+var="holberton"
+if [ -e "$var" ]
+then
+	if [ -f "$var" ]
+then
+echo "betty"
+elif [ -d "$var" ]
+then
+echo "school"
+fi
+else
+echo "$var doesnt exist"
+fi
